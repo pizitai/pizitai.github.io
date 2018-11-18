@@ -6,7 +6,7 @@ markdown: kramdown
 
 # 作者信息
 author:
-  name: whaozl
+  name: 巫章鹏
   email: whaozl@163.com
   link: http://whaozl.github.io
   weibo: http://weibo.com/zhulinniao
@@ -17,9 +17,9 @@ author:
   sinablog: http://blog.sina.com.cn/whaozl
 
 # 站点信息
-title: 郝竹林和王晓的blog
+title: 巫章鹏的blog
 description: haozl and wangx's blog
-url: http://whaozl.github.io
+url: https://pizitai.github.io
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
