@@ -7,18 +7,18 @@ markdown: kramdown
 # 作者信息
 author:
   name: 巫章鹏
-  email: whaozl@163.com
-  link: http://whaozl.github.io
-  weibo: http://weibo.com/zhulinniao
-  github: http://github.com/whaozl
-  music: http://www.xiami.com/collect/122047358?spm=a1z40.7113346.0.0&go=table
-  linkedin: http://www.linkedin.com/in/whaozl
-  cnblog: http://www.cnblogs.com/whaozl
-  sinablog: http://blog.sina.com.cn/whaozl
+  email: wzhangpeng1989@163.com
+  link: https://pizitai.github.io
+  weibo: https://weibo.com/u/3174688043
+  github: https://github.com/pizitai
+  music: 
+  linkedin: https://www.linkedin.com/in/%E7%AB%A0%E9%B9%8F-%E5%B7%AB-485614105/
+  cnblog: https://www.cnblogs.com/pizitai/
+  sinablog: https://weibo.com/u/3174688043
 
 # 站点信息
 title: 巫章鹏的blog
-description: haozl and wangx's blog
+description: 巫章鹏的个人博客
 url: https://pizitai.github.io
 rss_url: /pages/atom.xml
 
