@@ -1,0 +1,50 @@
+---
+layout: base
+---
+<div class="row">
+<style>
+table, th, td{
+	border-color: #ddd !important;
+	text-align: left !important;
+}
+</style>
+  <div class="col-md-13 aside3-title">
+    <h2 id="identifier">{{ page.title }}</h2>
+	{% include busuanzi.html %}
+  </div>
+  <div class="col-md-13 aside3-content">
+    <br />
+    <div id="content">
+      {{ content }}
+    </div>
+    <br />
+    <div class="row">
+      {% for love in page.loves %}
+        <div class="col-md-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">{{ love.title }}</div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-4 col-xs-12 center">
+                  <img src="{{ love.cover }}" alt="cover" class="img-thumbnail">
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr><td style="width:80px;">标题</td><td>{{ love.title }}</td></tr>
+					  <tr><td>生产日期</td><td>{{ love.publishdate }}</td></tr>
+                      <tr><td>出版地</td><td>{{ love.publisher }}</td></tr>
+                      <tr><td>评论</td><td>{{ love.description }}</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <hr>
+    {% include duoshuo.html %}
+  </div>
+</div>
